@@ -39,7 +39,12 @@ const rotas = [
 		nome: 'Desenhar retangulo',
 		rota: 'retangulo',
 	},
+	{
+		nome: 'Contagem em Sequência',
+		rota: 'Contagem',
+	},
 ];
+
 
 const Index = () => {
 	const navigate = useNavigate();

@@ -10,3 +10,17 @@ export function desenharRetangulo(linhas, colunas, simbolo) {
 	console.log(simbolo);
 	return rs;
 }
+
+export function Contagem(inicio,final) {
+
+	let r = ''
+
+	let i = inicio
+
+	while(i <= final){
+		r = r + ',' + i
+		i++
+	}
+	return r;
+}
+
