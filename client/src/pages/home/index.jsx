@@ -35,6 +35,10 @@ const rotas = [
 		nome: 'Ingressos cinema',
 		rota: 'cinema',
 	},
+	{
+		nome: 'Desenhar retangulo',
+		rota: 'retangulo',
+	},
 ];
 
 const Index = () => {
