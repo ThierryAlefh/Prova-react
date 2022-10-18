@@ -48,21 +48,32 @@ const Index = () => {
 				</div>
 				<div className='retangulo-total'>
 					{resultado.map(item => {
-						if (item === ' ') return <br />;
-						else if (modo === 'imagem')
+						if (modo !== 'imagem')
 							return (
-								<span>
-									<img
-										style={{
-											width: '50px',
-                                            margin: '5px'
-										}}
-										src='/assets/images/theRock.jfif'
-										alt=''
-									/>
-								</span>
+								<div>
+									{item.map(arr => (
+										<span>{arr}</span>
+									))}
+								</div>
 							);
-						else return <span>{item}</span>;
+						else
+							return (
+								<div>
+									{item.map(arr => (
+										<span>
+											<img
+												style={{
+													width: '50px',
+													height: '50px',
+													margin: '10px',
+												}}
+												src='/assets/images/theRock.jfif'
+												alt=''
+											/>
+										</span>
+									))}
+								</div>
+							);
 					})}
 				</div>
 			</main>

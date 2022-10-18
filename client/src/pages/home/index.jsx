@@ -39,6 +39,10 @@ const rotas = [
 		nome: 'Desenhar retangulo',
 		rota: 'retangulo',
 	},
+	{
+		nome: 'Desenhar triangulo',
+		rota: 'triangulo',
+	},
 ];
 
 const Index = () => {

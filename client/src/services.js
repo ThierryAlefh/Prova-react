@@ -1,12 +1,24 @@
 export function desenharRetangulo(linhas, colunas, simbolo) {
 	let rs = [];
 	for (let i = 0; i < linhas; i++) {
+		let cols = [];
 		for (let j = 0; j < colunas; j++) {
-			rs.push(simbolo);
+			cols.push(simbolo);
 		}
-		rs.push(' ');
+		rs.push(cols);
 	}
+	return rs;
+}
 
-	console.log(simbolo);
+export function desenharTriangulo(rows) {
+	let rs = [];
+	for (let i = 0; i <= rows; i++) {
+		let temp = [];
+		for (let j = 0; j <= rows; j++) {
+			if (j < i) temp.push('* ');
+			else temp.push('  ');
+		}
+		rs.push(temp);
+	}
 	return rs;
 }
