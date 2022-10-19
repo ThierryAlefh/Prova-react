@@ -43,6 +43,10 @@ const rotas = [
 		nome: 'Contagem em Sequência',
 		rota: 'Contagem',
 	},
+	{
+		nome: 'Quero Café',
+		rota: 'Cafe',
+	},
 ];
 
 

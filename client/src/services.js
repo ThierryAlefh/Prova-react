@@ -1,3 +1,4 @@
+// desenhar retangulo
 export function desenharRetangulo(linhas, colunas, simbolo) {
 	let rs = [];
 	for (let i = 0; i < linhas; i++) {
@@ -11,6 +12,7 @@ export function desenharRetangulo(linhas, colunas, simbolo) {
 	return rs;
 }
 
+//contagem
 export function Contagem(inicio,final) {
 
 	let r = ''
@@ -23,4 +25,18 @@ export function Contagem(inicio,final) {
 	}
 	return r;
 }
+
+// cafe
+function Cafe(n, l, d) {
+    
+    let coff = ((n*d) /1000);
+    let qtd = l;
+
+    while(coff> qtd) {
+        qtd+=l
+    }
+    console.log(qtd)
+}
+
+Cafe(15, 3, 200)
 

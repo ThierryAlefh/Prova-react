@@ -11,6 +11,7 @@ import Orcamento from './pages/orçamento';
 import Cinema from './pages/cinema';
 import Retangulo from './pages/retangulo';
 import Contagem  from './pages/contagem';
+import Cafe from './pages/cafe'
 
 const Index = () => {
 	return (
@@ -70,6 +71,11 @@ const Index = () => {
 					path='/contagem'
 					exact
 					element={<Contagem />}
+				/>
+				<Route 
+					path='/cafe'
+					exact
+					element={<Cafe/>}
 				/>
 			</Routes>
 		</BrowserRouter>
