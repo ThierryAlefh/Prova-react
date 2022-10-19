@@ -10,6 +10,7 @@ import Febre from './pages/febre';
 import Orcamento from './pages/orçamento';
 import Cinema from './pages/cinema';
 import Retangulo from './pages/retangulo';
+import Triangulo from './pages/triangulo';
 import Contagem  from './pages/contagem';
 import Cafe from './pages/cafe'
 
@@ -68,6 +69,11 @@ const Index = () => {
 					element={<Retangulo />}
 				/>
 				<Route
+					path='triangulo'
+					exact
+					element={<Triangulo />}
+        />
+        <Route
 					path='/contagem'
 					exact
 					element={<Contagem />}

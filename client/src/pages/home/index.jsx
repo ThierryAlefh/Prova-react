@@ -40,6 +40,10 @@ const rotas = [
 		rota: 'retangulo',
 	},
 	{
+		nome: 'Desenhar triangulo',
+		rota: 'triangulo',
+  },
+  {
 		nome: 'Contagem em Sequência',
 		rota: 'Contagem',
 	},
