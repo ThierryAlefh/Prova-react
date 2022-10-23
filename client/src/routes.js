@@ -11,8 +11,9 @@ import Orcamento from './pages/orçamento';
 import Cinema from './pages/cinema';
 import Retangulo from './pages/retangulo';
 import Triangulo from './pages/triangulo';
-import Contagem  from './pages/contagem';
-import Cafe from './pages/cafe'
+import Contagem from './pages/contagem';
+import Cafe from './pages/cafe';
+import TicTacToe from './pages/jogo-da-velha';
 
 const Index = () => {
 	return (
@@ -72,16 +73,21 @@ const Index = () => {
 					path='triangulo'
 					exact
 					element={<Triangulo />}
-        />
-        <Route
+				/>
+				<Route
 					path='/contagem'
 					exact
 					element={<Contagem />}
 				/>
-				<Route 
+				<Route
 					path='/cafe'
 					exact
-					element={<Cafe/>}
+					element={<Cafe />}
+				/>
+				<Route
+					path='tic-tac-toe'
+					exact
+					element={<TicTacToe />}
 				/>
 			</Routes>
 		</BrowserRouter>

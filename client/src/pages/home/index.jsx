@@ -42,8 +42,8 @@ const rotas = [
 	{
 		nome: 'Desenhar triangulo',
 		rota: 'triangulo',
-  },
-  {
+	},
+	{
 		nome: 'Contagem em Sequência',
 		rota: 'Contagem',
 	},
@@ -51,8 +51,11 @@ const rotas = [
 		nome: 'Quero Café',
 		rota: 'Cafe',
 	},
+	{
+		nome: 'Jogo da velha',
+		rota: 'tic-tac-toe',
+	},
 ];
-
 
 const Index = () => {
 	const navigate = useNavigate();
