@@ -14,6 +14,7 @@ import Triangulo from './pages/triangulo';
 import Contagem from './pages/contagem';
 import Cafe from './pages/cafe';
 import TicTacToe from './pages/jogo-da-velha';
+import Notas from './pages/notas';
 
 const Index = () => {
 	return (
@@ -88,6 +89,11 @@ const Index = () => {
 					path='tic-tac-toe'
 					exact
 					element={<TicTacToe />}
+				/>
+				<Route
+					path='notas'
+					exact
+					element={<Notas />}
 				/>
 			</Routes>
 		</BrowserRouter>

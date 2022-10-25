@@ -55,6 +55,10 @@ const rotas = [
 		nome: 'Jogo da velha',
 		rota: 'tic-tac-toe',
 	},
+	{
+		nome: 'Calcular notas',
+		rota: 'notas',
+	},
 ];
 
 const Index = () => {
